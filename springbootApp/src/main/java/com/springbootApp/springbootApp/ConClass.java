@@ -12,4 +12,8 @@ public class ConClass {
 	public String say(){
 		return"Hi";
 	}
+	@GetMapping("/sayHello")
+	public String sayHellow(){
+		return"Hi Dear Ram How r u?";
+	}
 }
